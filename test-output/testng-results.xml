@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-17T11:22:31 IST" name="Suite" finished-at="2024-10-17T11:22:45 IST" duration-ms="13512">
+    <groups>
+    </groups>
+    <test started-at="2024-10-17T11:22:31 IST" name="Test" finished-at="2024-10-17T11:22:45 IST" duration-ms="13512">
+      <class name="TestCases.LoginTestCases">
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:TestCases.LoginTestCases@4c371370]" started-at="2024-10-17T11:22:31 IST" name="openBroswer" finished-at="2024-10-17T11:22:34 IST" duration-ms="2429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method signature="verifyInvalidCrentials(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginTestCases@4c371370]" started-at="2024-10-17T11:22:34 IST" name="verifyInvalidCrentials" description="Verify Login page with invalid crentials from Data provider" data-provider="Invalid TestData for Login page" finished-at="2024-10-17T11:22:36 IST" duration-ms="2490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8768768sfdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCrentials -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:TestCases.LoginTestCases@4c371370]" started-at="2024-10-17T11:22:36 IST" name="tearDownBrowser" finished-at="2024-10-17T11:22:36 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:TestCases.LoginTestCases@4c371370]" started-at="2024-10-17T11:22:36 IST" name="openBroswer" finished-at="2024-10-17T11:22:38 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method signature="verifyInvalidCrentials(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginTestCases@4c371370]" started-at="2024-10-17T11:22:38 IST" name="verifyInvalidCrentials" description="Verify Login page with invalid crentials from Data provider" data-provider="Invalid TestData for Login page" finished-at="2024-10-17T11:22:40 IST" duration-ms="2442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hgfjshdgfjh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCrentials -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:TestCases.LoginTestCases@4c371370]" started-at="2024-10-17T11:22:40 IST" name="tearDownBrowser" finished-at="2024-10-17T11:22:41 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:TestCases.LoginTestCases@4c371370]" started-at="2024-10-17T11:22:41 IST" name="openBroswer" finished-at="2024-10-17T11:22:42 IST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method signature="verifyInvalidCrentials(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginTestCases@4c371370]" started-at="2024-10-17T11:22:42 IST" name="verifyInvalidCrentials" description="Verify Login page with invalid crentials from Data provider" data-provider="Invalid TestData for Login page" finished-at="2024-10-17T11:22:44 IST" duration-ms="2516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[besant@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88768sfdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCrentials -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:TestCases.LoginTestCases@4c371370]" started-at="2024-10-17T11:22:44 IST" name="tearDownBrowser" finished-at="2024-10-17T11:22:45 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- TestCases.LoginTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
